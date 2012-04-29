@@ -1,0 +1,4 @@
+Programvare
+
+-Git
+http://code.google.com/p/msysgit/
