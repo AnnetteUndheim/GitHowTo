@@ -1,4 +1,38 @@
 Programvare
 
--Git
+1.Git
+***
 http://code.google.com/p/msysgit/
+
+Installer
+-Run Git from Windows Command Prompt
+
+2. Notepad ++
+*************
+http://notepad-plus-plus.org/download/v6.1.2.html
+
+Installer
+
+git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+
+git config --global user.name "Annette Undheim"
+
+git config --global user.email "annette.undheim@webstep.no"
+
+
+Using editor
+Skriv commit message
+Lagre
+Avslutt
+
+3. GitHub
+Lag konto
+i git bash: ssh-keygen -t dsa
+enter i de neste steg
+finn id_dsa.pub i hjemmekatalog under .ssh
+åpne i Notepad++
+kopier og lag ny ssh key i GitHub
+
+4. sett opp Git remote
+kopier repository url fra github
+kjør kommando  git remote add github git@github.com:AnnetteUndheim/GitHowTo.git
